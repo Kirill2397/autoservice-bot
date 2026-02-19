@@ -13,3 +13,10 @@ def get_distribution(name):
     class DummyDist:
         version = "0.0"
     return DummyDist()
+
+
+def iter_entry_points(group, name=None):
+    """
+    Return an empty list of entry points.
+    """
+    return []
